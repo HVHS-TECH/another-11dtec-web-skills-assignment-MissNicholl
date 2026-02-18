@@ -1,3 +1,42 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(255, 174, 239);
   }
+
+  h1 {background-color: rgb(185, 255, 232); font-family: font-family: "Twinkle Star", cursive;
+  font-weight: 400;
+  font-style: normal;
+};}
+
+  p {background-color: rgb(185, 255, 232);}
+
+  a {background-color: palevioletred;}
+
+  .twinkle-star-regular {
+  font-family: "Twinkle Star", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  border-radius: 8px;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(36, 182, 222);
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
