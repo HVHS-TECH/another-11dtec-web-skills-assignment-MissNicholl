@@ -2,13 +2,25 @@ body {
     background-color: rgb(255, 174, 239);
   }
 
-  h1 {background-color: rgb(185, 255, 232); font-family: font-family: "Twinkle Star", cursive;
+  h1 {background-color: rgb(127, 65, 189); font-family: font-family: "Twinkle Star", cursive;
   font-weight: 400;
   font-style: normal;}
 
-  p {background-color: rgb(185, 255, 232);}
+    h2 {background-color: rgb(127, 65, 189); font-family: font-family: "Twinkle Star", cursive;
+  font-weight: 400;
+  font-style: normal;}
 
-  a {background-color: palevioletred;}
+    h3 {background-color: rgb(127, 65, 189); font-family: font-family: "Twinkle Star", cursive;
+  font-weight: 400;
+  font-style: normal;}
+
+  p {background-color: rgb(20, 176, 124);}
+
+  ol {background-color: rgb(20, 176, 124);}
+
+  ul {background-color: rgb(20, 176, 124);}
+
+  a {background-color: rgb(155, 71, 99);}
 
   .twinkle-star-regular {
   font-family: "Twinkle Star", cursive;
@@ -40,6 +52,19 @@ a:active {
   color: blue;
 }
 
-body {
-  background-image: url("Images/care-bears-on-clouds-attiktbv9ynr36k4.jpg"); 
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("Images/care-bears-on-clouds-attiktbv9ynr36k4.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
